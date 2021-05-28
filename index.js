@@ -56,13 +56,17 @@ if(user==comp[matchCO])
 }
 else{
 document.getElementById('head').innerHTML="Game Over";
-  document.getElementById('head1').innerHTML="Level Reached " + level ;
 document.getElementById('head').style.color="red";
 document.getElementById('green').style.background="white";
 document.getElementById('red').style.background="white";
 document.getElementById('yellow').style.background="white";
 document.getElementById('blue').style.background="white";
 document.getElementById('main').style.background="black";
+document.getElementById('btn').style.display="block";
+document.getElementById('btn').innerHTML="Restart";
+document.getElementById('btn').style.color="white";
+document.getElementById('btn').style.background="red";
+document.getElementById('btn1').style.display="block";
 gameover.play();
 }
 }
