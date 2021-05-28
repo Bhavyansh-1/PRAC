@@ -61,6 +61,29 @@
   border-radius: 20%;
   border : 1vh solid black;
 }
+#btn{
+  right: 41%;
+  position: absolute;
+  top:85%;
+  min-height:5vh;
+  min-width: 18vw;
+  font-size: 5vmin;
+  color:white;
+  background-color: black;
+  border: 2px solid black;
+}
+#btn1{
+  right: 41%;
+  display: none;
+  position: absolute;
+  top:85%;
+  min-height:5vh;
+  min-width: 18vw;
+  font-size: 5vmin;
+  color:white;
+  background-color:red;
+  border: 2px solid black;
+}
 @media only screen and (max-device-width:480px) {
 
   #green{
@@ -126,6 +149,30 @@
 }
 .pressed{
   animation: Blink 0.5s forwards;
+}
+
+#btn{
+  right: 43%;
+  position: absolute;
+  top:88%;
+  min-height:5vh;
+  min-width: 18vw;
+  font-size: 5vmin;
+  color:white;
+  background-color: black;
+  border: 2px solid black;
+}
+#btn1{
+  right: 43%;
+  display: none;
+  position: absolute;
+  top:88%;
+  min-height:5vh;
+  min-width: 18vw;
+  font-size: 5vmin;
+  color:white;
+  background-color:red;
+  border: 2px solid black;
 }
 @media only screen and (max-width:700px) {
 
