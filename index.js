@@ -56,6 +56,7 @@ if(user==comp[matchCO])
 }
 else{
 document.getElementById('head').innerHTML="Game Over";
+  document.getElementById('head1').innerHTML="Level Reached " + level ;
 document.getElementById('head').style.color="red";
 document.getElementById('green').style.background="white";
 document.getElementById('red').style.background="white";
