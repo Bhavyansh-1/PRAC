@@ -1,0 +1,173 @@
+
+  body{
+    margin:0px;
+    text-align: center;
+    padding: 0px;
+    background-color:purple;
+  }
+  h1{
+    font-size: 5vh;
+    color: white;
+  }
+
+
+
+.main{
+
+  display:inline-block;
+  height:100vh;
+  width:100vw;
+  background-color:purple;
+}
+#blue{
+  position: absolute;
+  top:55%;
+  right: 30%;
+  height:30%;
+  width: 20%;
+  background: blue;
+  border-radius: 20%;
+  border : 1vh solid black;
+}
+
+#red{
+  position: absolute;
+  top:20%;
+  right: 30%;
+  height:30%;
+  width: 20%;
+  margin-left: 1%;
+  background: red;
+  border-radius: 20%;
+  border : 1vh solid black;
+}
+#yellow{
+  position: absolute;
+  right: 52.5%;
+  top:55%;
+  height:30%;
+  width: 20%;
+  background: yellow;
+  border-radius: 20%;
+  border : 1vh solid black;
+}
+#green{
+  position: absolute;
+  top:20%;
+  right: 52.5%;
+  height:30%;
+  width: 20%;
+  background: green;
+  border-radius: 20%;
+  border : 1vh solid black;
+}
+@media only screen and (max-device-width:480px) {
+
+  #green{
+    position: absolute;
+    top:20%;
+    right: 40%;
+    height:30%;
+    width: 30%;
+    background: green;
+    border-radius: 20%;
+    border : 1vh solid black;
+  }
+  #red{
+    position: absolute;
+    top:55%;
+    right: 40%;
+    height:30%;
+    width: 30%;
+    background: red;
+    border-radius: 20%;
+    border : 1vh solid black;
+  }
+  #yellow{
+    position: absolute;
+    right: 40%;
+    top:90%;
+    height:30%;
+    width: 30%;
+    background: yellow;
+    border-radius: 20%;
+    border : 1vh solid black;
+  }
+  #blue{
+    position: absolute;
+    top:125%;
+    right: 40%;
+    height:30%;
+    width: 30%;
+    background: blue;
+    border-radius: 20%;
+    border : 1vh solid black;
+  }
+
+}
+@keyframes Blink {
+  0%{
+    opacity:0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%
+  {
+    opacity:0.5;
+  }
+  75%{
+    opacity:0.75;
+  }
+  100%{
+    opacity:1;
+  }
+
+}
+.pressed{
+  animation: Blink 0.5s forwards;
+}
+@media only screen and (max-width:700px) {
+
+  #green{
+    position: absolute;
+    top:20%;
+    right: 40%;
+    height:30%;
+    width: 20%;
+    background: green;
+    border-radius: 20%;
+    border : 1vh solid black;
+  }
+  #red{
+    position: absolute;
+    top:55%;
+    right: 40%;
+    height:30%;
+    width: 20%;
+    background: red;
+    border-radius: 20%;
+    border : 1vh solid black;
+  }
+  #yellow{
+    position: absolute;
+    right: 40%;
+    top:90%;
+    height:30%;
+    width: 20%;
+    background: yellow;
+    border-radius: 20%;
+    border : 1vh solid black;
+  }
+  #blue{
+    position: absolute;
+    top:125%;
+    right: 40%;
+    height:30%;
+    width: 20%;
+    background: blue;
+    border-radius: 20%;
+    border : 1vh solid black;
+  }
+
+}

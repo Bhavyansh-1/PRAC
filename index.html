@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="numberGenerator();" id="body" >
+
+    <div class="main" id="main" >
+
+<h1 id="head" style="font-size:9vmin;margin-block-start:0.5em;" >Press any key to start</h1>
+<button id= "green" class="common" onclick="user=1;match();clickSound.play();document.getElementById('green').classList.add('pressed');setTimeout(function(){document.getElementById('green').classList.remove('pressed');},100);"></button>
+<button id="red" class="common" onclick="user=2;match();clickSound.play();document.getElementById('red').classList.add('pressed');setTimeout(function(){document.getElementById('red').classList.remove('pressed');},100);"></button>
+<button  id="yellow"  class="common" onclick="user=3;match();clickSound.play();document.getElementById('yellow').classList.add('pressed');setTimeout(function(){document.getElementById('yellow').classList.remove('pressed');},100);"></button>
+<button  id = "blue" class="common" onclick="user=4;match();clickSound.play();document.getElementById('blue').classList.add('pressed');setTimeout(function(){document.getElementById('blue').classList.remove('pressed');},100);"></button>
+
+
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
