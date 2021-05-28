@@ -5,17 +5,17 @@
     <title>Game</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body onload="numberGenerator();" id="body" >
+  <body  id="body" >
 
     <div class="main" id="main" >
-<h2 style="font-size:9vmin;margin-block-start:0em;margin-block-end:0em;color:white;" id="head1" ></h2>
-<h1 id="head" style="font-size:9vmin;margin-block-start:0em;" >Press any key to start</h1>
-      
+
+<h1 id="head" style="font-size:9vmin;margin-block-start:0.5em;" >Click Start To Play</h1>
 <button id= "green" class="common" onclick="user=1;match();clickSound.play();document.getElementById('green').classList.add('pressed');setTimeout(function(){document.getElementById('green').classList.remove('pressed');},100);"></button>
 <button id="red" class="common" onclick="user=2;match();clickSound.play();document.getElementById('red').classList.add('pressed');setTimeout(function(){document.getElementById('red').classList.remove('pressed');},100);"></button>
 <button  id="yellow"  class="common" onclick="user=3;match();clickSound.play();document.getElementById('yellow').classList.add('pressed');setTimeout(function(){document.getElementById('yellow').classList.remove('pressed');},100);"></button>
 <button  id = "blue" class="common" onclick="user=4;match();clickSound.play();document.getElementById('blue').classList.add('pressed');setTimeout(function(){document.getElementById('blue').classList.remove('pressed');},100);"></button>
-
+<button type="button" id="btn" onclick="numberGenerator();document.getElementById('btn').style.display='none'">Start</button>
+<button type="button" id="btn1" onclick="window.location.reload();document.getElementById('btn').style.display='none';">Restart</button>
 
     </div>
 
