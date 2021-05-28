@@ -152,7 +152,7 @@
 }
 
 #btn{
-  right: 43%;
+  right: 41%;
   position: absolute;
   top:88%;
   min-height:5vh;
@@ -163,7 +163,7 @@
   border: 2px solid black;
 }
 #btn1{
-  right: 43%;
+  right: 41%;
   display: none;
   position: absolute;
   top:88%;
