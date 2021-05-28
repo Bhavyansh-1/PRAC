@@ -65,9 +65,9 @@
 
   #green{
     position: absolute;
-    top:20%;
-    right: 40%;
-    height:30%;
+    top:15%;
+    right: 35%;
+    height:15%;
     width: 30%;
     background: green;
     border-radius: 20%;
@@ -75,9 +75,9 @@
   }
   #red{
     position: absolute;
-    top:55%;
-    right: 40%;
-    height:30%;
+    top:32.5%;
+    right: 35%;
+    height:15%;
     width: 30%;
     background: red;
     border-radius: 20%;
@@ -85,9 +85,9 @@
   }
   #yellow{
     position: absolute;
-    right: 40%;
-    top:90%;
-    height:30%;
+    right: 35%;
+    top:50%;
+    height:15%;
     width: 30%;
     background: yellow;
     border-radius: 20%;
@@ -95,9 +95,9 @@
   }
   #blue{
     position: absolute;
-    top:125%;
-    right: 40%;
-    height:30%;
+    top:67.5%;
+    right: 35%;
+    height:15%;
     width: 30%;
     background: blue;
     border-radius: 20%;
